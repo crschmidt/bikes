@@ -53,5 +53,5 @@ def run_all(date=datetime.date(2023, 8, 10)):
 
 
 if __name__ == "__main__":
-    d = datetime.datetime.now()-datetime.timedelta(days=5)
+    d = datetime.datetime.now()-datetime.timedelta(days=2)
     run_all(d)
